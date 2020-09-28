@@ -15,7 +15,7 @@ namespace Mandelbrot
 
             for (int x = 0; x < width; x++)
             {
-                Console.WriteLine($"Processing.. {x} / {width}");
+                //Console.WriteLine($"Processing.. {x} / {width}");
                 for (int y = 0; y < height; y++)
                 {
                     Complex z = Complex.Zero;
